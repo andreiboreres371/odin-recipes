@@ -1,1 +1,2 @@
 # odin-recipes
+In this repos i am doing the odin project first project that they give on the road map that i following. This website will compose a index page which is the home page that will be connected into different relative links of recipe pages.
