@@ -1,0 +1,16 @@
+* {
+    /* border: solid; */
+}
+.main-container {
+    padding: 70px 0;
+    border: 3px solid green;
+    text-align: center;
+}
+.sub-container img {
+    width: 477px;
+    border: solid;
+}
+.sub-container ul{
+    list-style-type: none;
+    text-align: left;
+}
