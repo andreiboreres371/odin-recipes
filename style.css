@@ -42,45 +42,49 @@ body {
 
 
 /* CSS for Recipes */
-.content {
-    padding: 20px;
+.recipe-img img {
+    width: 200px;
+    
 }
-.navbar {
-    margin: 10px auto;
+.recipe-card {
+    margin: 20px auto;
+    padding: 18px;
+    width: 850px;
+    /* padding: 20px 0 20px 70px; */
+    border: 2px solid black;
+    background-color: beige;
+    border-radius: 1cm;
+}
+.recipe-img {
+    display: inline-block;
     text-align: center;
-    padding: 10px 20px;
-    height: auto;
+    height: 510px;
 }
-.center-navbar {
-    padding: 10px;
+details:hover{
+    color: darkgrey;
+    width: fit-content;
 }
-.center-navbar a{
-    margin: 10px;
+details li:hover{
     color: black;
-    background-color: aquamarine;
-    border-radius: 10%;
-    padding: 10px;
-    text-decoration: none;
-    height: auto;
 }
-.center-navbar a:hover {
-    color: aquamarine;
+.recipe-img a{
+    display: block;
+    padding: 10px 0;
+    background-color: darkgrey;
+    color: white;
+    margin: 10px 0;
+    border-radius: 1cm;
+    text-decoration: none;
+}
+.recipe-img a:hover {
     background-color: black;
 }
-.container {
-    margin: auto;
-    width: 50%;
-    border: 3px solid green;
-    padding: 20px;
+.recipe-content {
+    display: inline-block;
+    vertical-align: top;
+    padding: 0 0 0 20px;
+    width: 600px;
 }
-.container img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 40%;
-    border-radius: 50%;
-}
-
-.header, p{
-    text-align: center;
+.recipe-content h1 {
+    margin: -9px 0 0 0;
 }
